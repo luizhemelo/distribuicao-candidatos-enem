@@ -22,7 +22,7 @@ fig = px.scatter_mapbox(
     size_max=60,
     zoom=4,
     mapbox_style="outdoors",
-    title="Distribuição do Número de Candidatos do ENEM por Cidade / Anos 2013-2022",
+    title="Número de Candidatos do ENEM por Cidade",
     height=720
 )
 
