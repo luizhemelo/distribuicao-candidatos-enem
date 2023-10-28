@@ -1,2 +1,1 @@
-# distribuicao-candidatos-enem
-Aplicação para exibição da distribuição de candidatos do ENEM
+# Distribuição do Número de Candidatos do ENEM
