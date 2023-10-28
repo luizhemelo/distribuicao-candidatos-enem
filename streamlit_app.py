@@ -1,5 +1,6 @@
 import locale
 import pandas as pd
+import streamlit as st
 import plotly.express as px
 
 # set page config
@@ -23,8 +24,7 @@ fig = px.scatter_mapbox(
     size_max=60,
     zoom=4,
     mapbox_style="outdoors",
-    title="Distribuição do Número de Candidatos do ENEM por Cidade / Anos 2013-2022",
-    use_container_width=True
+    title="Distribuição do Número de Candidatos do ENEM por Cidade / Anos 2013-2022"
 )
 
 # build webpage
