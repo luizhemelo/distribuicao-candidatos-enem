@@ -27,4 +27,4 @@ fig = px.scatter_mapbox(
 )
 
 # build webpage
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, theme=None, use_container_width=True)
