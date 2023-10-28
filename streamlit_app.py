@@ -24,9 +24,8 @@ fig = px.scatter_mapbox(
     size_max=60,
     zoom=4,
     mapbox_style="outdoors",
-    title="Distribuição do Número de Candidatos do ENEM por Cidade / Anos 2013-2022",
-    width=2000
+    title="Distribuição do Número de Candidatos do ENEM por Cidade / Anos 2013-2022"
 )
 
 # build webpage
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, use_container_width=True, theme=None)
