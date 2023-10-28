@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 px.set_mapbox_access_token("pk.eyJ1IjoibHVpemhlbWVsbyIsImEiOiJjbG9hZGkzdDQwaG94Mm1udmg4Mmx0ZG45In0.etjGdsIyRFv-oaU74-8DTg")
 
 # load ENEM preprocessed data
-df = pd.read_pickle('./data/preprocessed_enem_data.pickle')
+df = pd.read_pickle('./data/enem_data.pickle')
 
 # build map visualization
 fig = px.scatter_mapbox(
