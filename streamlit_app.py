@@ -21,7 +21,7 @@ fig = px.scatter_mapbox(
     color_continuous_scale=px.colors.cyclical.IceFire,
     size_max=60,
     zoom=4,
-    mapbox_style="dark",
+    mapbox_style="carto-darkmatter",
     title="Número de Candidatos do ENEM por Cidade",
     height=720
 )
